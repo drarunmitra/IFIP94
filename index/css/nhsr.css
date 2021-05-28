@@ -150,7 +150,7 @@ blockquote {
 
 /*-- NHS organisation logo --*/
 .title-slide {
-  background-image:    url(../img/logo-title-slide.png);
+  background-image:    url(../img/ifip94_sctimst_logo.png);
   background-position: 95% 10%;
   background-size:     300px;
 }
@@ -158,6 +158,11 @@ blockquote {
 /*-- Headings --*/
 .title-slide h1 {
   color:               #000000;
+}
+
+.title-slide hgroup h1 {
+  font-size: 36px;
+  letter-spacing: 0;
 }
 
 /*-- Hides slide number from title slide --*/
@@ -171,3 +176,9 @@ blockquote {
 .pink       { color:   #AE2573 }
 .red        { color:   #DA291C }
 .warmyellow { color:   #FFB81C }
+
+
+
+/*-- FONT SIZE --*/
+.large { font-size: 130% }
+.small { font-size: 70% }
